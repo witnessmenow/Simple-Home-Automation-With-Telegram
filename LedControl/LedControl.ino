@@ -36,7 +36,7 @@ char password[] = "password"; // your network password
 
 // This is the Wifi client that supports HTTPS
 WiFiClientSecure client;
-UniversalTelegramBot bot(BOTtoken, client);
+UniversalTelegramBot bot(TELEGRAM_BOT_TOKEN, client);
 
 #define LED_PIN 2 // Same as D4 for Wemos
 
